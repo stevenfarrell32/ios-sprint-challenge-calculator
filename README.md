@@ -38,6 +38,13 @@ In addition, look at the built-in calculator app on your iOS device. Or play wit
 
 Follow these steps to construct your application based on the scaffolding provided in the starter. Recognize that not every step necessary to complete this challenge will be listed below.
 
+## Calculator 101
+
+A basic calculation: `2 + 4` consists of two operands (`2` and `4`) and an operator (`+`). 
+
+* You need to determine what math operation needs to be used based on the operator.
+* You need to keep track of the operands that are entered before and after the operator is pressed
+
 ### In `CalculatorViewController.swift`:
 * Create a property called `brain` of type `CalculatorBrain`. This object will hold the information related to the current calculation. A basic calculation consists of 2 operands and an operator (e.g. 2, 4, and +, or 2 + 4). Set the variable to be optional and do _not_ give it an initial value. This variable will get set and re-set with each transaction, so it needs to be optional.
 * In `viewDidLoad`, initialize a new `CalculatorBrain` object and assign it to the above property.
